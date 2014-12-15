@@ -1,0 +1,26 @@
+#art-wrapper{
+	@include display(flex);
+	@include flex-direction(row);
+	-webkit-flex-wrap: wrap;
+  	flex-wrap: wrap;
+	.art-image{
+		width:40%;
+		margin:5%;
+		text-transform: capitalize;
+
+		img{
+			width:100%;
+			height:auto;
+		}
+		figcaption{
+			text-align: center;
+		}
+	}
+}// #art-wrapper
+
+@media (max-width: 880px) {
+	
+	#art-wrapper .art-image{
+		width:90%;
+	}
+}

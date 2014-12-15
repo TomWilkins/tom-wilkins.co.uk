@@ -1,0 +1,71 @@
+
+section#computing{
+	table#languageMap{
+		width:100%;
+
+		tr{
+			border: 5px solid transparent;
+		}
+
+		tr :first-child{
+			width:100px;
+			text-align: right;
+			margin-right:5px;
+		}
+		tr :last-child{
+			@include animation(languageBar 5s ease);
+		}
+		td{
+			display: inline-block;
+		}
+
+		$val: 5;
+		@while $val > 0{
+			.val#{$val}{
+			    width: $val * 10%;
+			    height:100%;
+			    @if $val < 3{
+			    	background-color: tint(red, 40%);
+			    }
+			    @if $val > 2 and $val < 5{
+			    	background-color: tint(orange, 40%);
+			    }
+			    @if $val > 4{
+			    	background-color: tint(green, 40%);
+			    }
+			}
+		  $val: $val - 1;
+		}
+	}// table#languageMap
+
+	#languageMapKey{
+		margin-top:10px;
+		border:2px solid tint(black, 40%);
+		padding:20px;
+		border-radius: 2px;
+		display: inline-block;
+		margin: 10px auto;
+		h4{
+			padding-top:0;
+			margin-top:0;
+			margin-right:0;
+			display: inline-block;
+		}
+		span{
+			padding:5px;
+		}
+		.keyred{
+			background-color: tint(red, 40%);
+		}
+		.keyyellow{
+			background-color: tint(orange, 40%);
+		}
+		.keygreen{
+			background-color: tint(green, 40%);
+		}
+	}// #languageMapKey
+
+	#topic-notice{
+		font-style: italic;
+	}
+}// section#computing

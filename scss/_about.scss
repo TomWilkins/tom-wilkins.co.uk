@@ -1,0 +1,23 @@
+section#about{
+	.linkedInLink, .feral, .VA{
+		color:$blue;
+		font-weight: bold;
+		text-decoration: none;
+		@include transition(background-color .2s ease);
+		&:hover{
+			color:tint($blue,10%);
+		}
+	}
+	.feral{
+		color:#F87628;
+		&:hover{
+			color:tint(#F87628,10%);
+		}
+	}
+	.VA{
+		color:#5A84BD;
+		&:hover{
+			color:tint(#5A84BD,10%);
+		}
+	}
+}

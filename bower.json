@@ -1,0 +1,21 @@
+{
+  "name": "tom-wilkins",
+  "version": "0.0.1",
+  "homepage": "https://github.com/TomWilkins/tom-wilkins.co.uk",
+  "authors": [
+    "Tom Wilkins <tomwilkins93@hotmail.co.uk>"
+  ],
+  "description": "Portfolio website",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.1"
+  }
+}

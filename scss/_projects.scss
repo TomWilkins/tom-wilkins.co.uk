@@ -1,0 +1,56 @@
+.two_col_img{
+	width: 60%;
+	@include display(flex);
+	@include flex-direction(row);
+	-webkit-flex-wrap: wrap;
+  	flex-wrap: wrap;
+
+	figure{
+		background-color: white;
+		display: inline-block;
+		width:40%;
+		margin:5%;
+		@include transition(transform .2s ease);
+		&:hover, &:active{
+			@include transform(scale(1.5,1.5));
+		}
+	}
+	figcaption{
+		text-align: center;
+		position: relative;
+	}
+	img{
+		width:100%;
+	}
+}
+
+.project_text{
+	width:40%;
+	float: left;
+}
+
+.project{
+	clear:both;
+	margin: 30px 0;
+	@include clearfix;
+	h4{
+		margin:0;
+	}
+}
+
+@media (max-width: 880px) {
+	.project_text{
+		width:100%;
+		float:none;
+		margin:0;
+	}
+	.two_col_img{
+		width:100%;
+
+		figure{
+			&:hover, &:active{
+				@include transform(none);
+			}
+		}
+	}
+}
