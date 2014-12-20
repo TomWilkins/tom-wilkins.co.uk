@@ -58,11 +58,11 @@
 	<main>
 		<section id="about">
 			<h2>About</h2>
-	        <p>I am a <?=date("Y")-1994?>-year-old student studying Computer Science at the University Of East Anglia, currently on a placement year working as a Web and Tools Developer for <a class="feral" href="http://feralinteractive.com/" target="_blank">Feral Interactive</a>. I am an enthusiastic, confident and determined individual trying to achieve everything to the best of my ability.</p>
+	        <p>I am a <?=date("Y")-1994?>-year-old student studying Computer Science at the University of East Anglia and am currently on a placement year working as a Web and Tools Developer for <a class="feral" href="http://feralinteractive.com/" target="_blank">Feral Interactive</a>. I am an enthusiastic, confident and determined individual trying to achieve everything to the best of my ability.</p>
 	        <p>I have previously worked as a Web Developer at a small SAAS company in Norwich called <a class="VA" href="https://www.vendorappraisal.com/" target="_blank">Vendor Appraisal</a>.<p>
-	        <p>The two most interesting topics of Computer Science to me at the moment are web and software, particularly how they are both combined into one medium through the web, allowing native software applications to be built entirely using the web platform (SAAS). It opens a number of possibilities that a few years ago, were unthinkable.</p> 
-			<p>I have also had an interest in Art and Graphics since High School and have learnt to use editing software, e.g. Adobe Photoshop, meaning when I look at a web application I will consider not only its functional use but also the graphical design.</p>
-			<p>This website is a portfolio showcasing some of my computing, graphics and artwork. Some of which has been done during academic study while the rest in my spare time. For a more in-depth overview, check out my <a class='linkedInLink' href="https://uk.linkedin.com/pub/tom-wilkins/74/78/951" target="_blank" >LinkedIn profile.</a></p>
+	        <p>Currently I think that the two most interesting topics in Computer Science to me at the moment are the web and software. I am particularly interested by how they are combined into one medium through the web, allowing native software applications to be built entirely using the web platform (SAAS). It opens a number of possibilities that a few years ago, were unthinkable.</p> 
+			<p>I have also had an interest in Art and Graphics since High School and have learnt to use editing software, for example Adobe Photoshop, which means that when I look at a web application I will consider not only its functional use but also the graphical design.</p>
+			<p>This website is a portfolio showcasing some of my computing, graphics and artwork. Some of which has been done during academic study whilist the rest has been in my spare time. For a more in-depth overview, check out my <a class='linkedInLink' href="https://uk.linkedin.com/pub/tom-wilkins/74/78/951" target="_blank" >LinkedIn profile.</a></p>
 	      	
 		</section><!-- about -->
 		<hr> 
@@ -79,7 +79,7 @@
 				Programming 2, Data Structures and Algorithms, <a class="link" href="https://www.uea.ac.uk/study/module/mod-detail/CMP-5013A" target="_blank">Architectures and Operating Systems</a>, <a class="link" href="https://www.uea.ac.uk/study/module/mod-detail/CMP-5012B" target="_blank">Software Engineering 1</a>, <a class="link" href="https://www.uea.ac.uk/study/module/mod-detail/CMP-5003A" target="_blank">System Analysis</a> and <a class="link" href="https://www.uea.ac.uk/study/module/mod-detail/CMP-5010B" target="_blank">Graphics 1.</a></p>
 			<p><h4>1st Year (82%)</h4>
 				<a class="link" href="https://www.uea.ac.uk/study/module/mod-detail/CMP-4008Y" target="_blank">Programming 1</a>, Computer Systems 1 & 2, Computing Fundamentals, Computing Revolution and <a class="link" href="https://www.uea.ac.uk/study/module/mod-detail/CMP-4005Y" target="_blank">Mathematics</a></p>
-			<p id="topic-notice">* Some of the modules have had there information removed due to the course being restructured.</p>
+			<p id="topic-notice">* Some of the modules have had their information removed due to the course being restructured.</p>
 
 			<br>
 			<h3>Projects</h3>
@@ -147,7 +147,7 @@
 			   	<!-- Game Project -->
 		     	<h4>OpenGL Game: Switch</h4>
 		     	<div class="project_text">
-		     		<p>This was a course project where we had to create a 2D top-down roaming game using OpenGL in C++ (was my first time using both).</p>
+		     		<p>This was a course project where we had to create a 2D top-down roaming game using OpenGL in C++ (it was my first time using both).</p>
 		     		<p>The game I created is called 'Switch' and is a first-person shooter. The objective is to escape the Hellish Lands by fighting your way through the levels and slaying the boss.</p>
 		     	</div>
 
@@ -175,15 +175,15 @@
 	    <section id="graphics">
 	    	<h2>Graphics</h2>
 
-	    	<p>I have gained experience of web graphics from doing front-end web design, taking templates/ mock-ups from paper to mark-up.</p>
-	    	<p>At A-Level I took Graphic Communication and received an A*, this section showcases the main projects and there outcomes.</p> 
+	    	<p>I have gained experience in web graphics by doing front-end web design and taking templates/ mock-ups from paper to mark-up.</p>
+	    	<p>At A-Level I took Graphic Communication and received an A*, this section showcases the main projects and their outcomes.</p> 
 			<p>The graphics seen here have been designed by hand and then edited on the computer using an Adobe package.</p>
 
 			<article class="project">
 				<!-- Alfresco -->
 		     	<h3>Alfresco</h3>
 		     	<div class="project_text">
-		     		<p>This project required me to channel my own interpretation of Alfresco into some kind of outcome. I decided to create a brand that targeted local communities, using there tourist attractions as the art. My local college was based in Twickenham so I used that as a foundation and inspiration for my outcomes.</p>
+		     		<p>This project required me to channel my own interpretation of Alfresco into some kind of outcome. I decided to create a brand that targeted local communities, using their tourist attractions as the art. My local college was based in Twickenham so I used that as a foundation and inspiration for my outcomes.</p>
 		        	<p>During the opening stages of the project I considered a number of different possible outcomes, finially deciding to create a series of watercolour art inspired by vintage National Rail posters such as <a class="link" href="http://enthralledbybeauty.files.wordpress.com/2010/07/railway-posters1.jpg" target="_blank">these</a>.</p>
 		        	<p>The outcomes were first sketched on site, and then enhanced using black-line ink and computer editing.</p>
 	        	</div>

@@ -1,0 +1,11 @@
+#ignore binary/ compiled files
+*.[oa]
+
+#ignore temp files
+*~
+
+#ignore bower components
+bower_components/
+
+#node modules
+node_modules/
